@@ -1,2 +1,2 @@
 # GatorRenter-District-API-Golang
-re-create a feature from one of my school project into an API
+learning Golang by creating a feature from my school project into an API
