@@ -1,0 +1,268 @@
+{
+"districts": [
+    {
+        "name": "Inner Richmond",
+        "description": "The Inner Richmond, close to the Presidio, has a citywide reputation for great food, courtesy of many popular Asian restaurants, and Irish pubs.",
+        "pros": "Parks and Recreation, Internet Access, Eating Out, Public Transport, Gym and Fitness",
+        "cons": "Parking",
+        "portion": "NorthWest",
+        "distance_from_sfsu": "5 miles"
+    },
+    {
+        "name": "Central Richmond",
+        "description": "This vibrant little neighborhood in the middle of the Richmond District is known for its ethnic diversity. In addition to some of San Francisco’s more affordable housing, you’ll find an eclectic array of cafes and restaurants serving everything from Dim Sum to upscale French fare, in Central Richmond.",
+        "pros": "Parks and Recreation, Internet Access, Schools, Public Transport, Medical Facilities",
+        "cons": "Parking",
+        "portion": "NorthWest",
+        "distance_from_sfsu": "5 miles"
+    },
+    {
+        "name": "Outer Richmond",
+        "description": "Bordered stunning coastline, the Outer Richmond's hefty proportion of single-family homes draws a diverse array of families, especially with Golden Gate Park right at its front door. Even the fog doesn't deter locals from its beautiful beaches and coastal hiking trails.",
+        "pros": "Parks and Recreation, Internet Access, Clean and Green, Peace and Quiet, Gym and Fitness",
+        "cons": "Resale or Rental Value, Medical Facilities, Cost of Living, Nightlife",
+        "portion": "NorthWest",
+        "distance_from_sfsu": "5 miles"
+    },
+    {
+        "name": "Marina",
+        "description": "In the Marina, hopping nightlife for young residents meets great casual dining, nice weather and plenty of recreational space for outdoors activities.",
+        "pros": "Parks and Recreation, Pest Free, Clean and Green, Safe and Sound, Resale or Rental Value",
+        "cons": "Parking",
+        "portion": "North",
+        "distance_from_sfsu": "8 miles"
+    },
+    {
+        "name": "Cow Hollow",
+        "description": "Cow Hollow is an affluent section of town that’s popular with young professionals. Union Street, the main drag, is crawling with chic fashion boutiques, pilates studios, juice shops and beauty salons. Restaurants range from French fine dining to Italian bistros to brunch cafes, and there are also sports bars and wine lounges.",
+        "pros": "Eating Out, Pest Free, Nightlife, Shopping Options, Gym and Fitness",
+        "cons": "Parking, Cost of Living",
+        "portion": "North",
+        "distance_from_sfsu": "8 miles"
+    },
+    {
+        "name": "Pacific Heights",
+        "description": "Pacific Heights is a posh residential enclave known for its architecturally significant homes, including the opulent Spreckels Mansion and the 1886 Haas-Lilienthal house, a Queen Anne Victorian that’s open to the public. A pair of grassy hilltop parks, Lafayette and Alta Plaza, and the Lyon Street Stairs provide sweeping views of the bay. Fillmore Street is a lively hub with high-end fashion boutiques and cafes.",
+        "pros": "Parks and Recreation, Internet Access, Schools, Clean and Green, Neighborly Spirit",
+        "cons": "Parking, Cost of Living",
+        "portion": "North",
+        "distance_from_sfsu": "9 miles"
+    },
+    {
+        "name": "Chinatown",
+        "description": "This is one of the oldest and most established Chinatowns in the U.S. Beyond iconic Dragon’s Gate, a bustling maze of streets and alleys brims with dim sum joints and other traditional eateries. Also found are herbalists, bakeries, souvenir shops, and dark cocktail lounges and karaoke bars.",
+        "pros": "Eating Out, Shopping Options, Internet Access, Neighborly Spirit, Nightlife",
+        "cons": "Parking, Parks and Recreation",
+        "portion": "NorthEast",
+        "distance_from_sfsu": "10 miles"
+    },
+    {
+        "name": "Nob Hill",
+        "description": "Once home to the mansions of the Big Four railroad barons, Nob Hill retains a sense of wealth and privilege. Some of the city’s swankiest hotels are here, as are the ornate, Gothic-style Grace Cathedral and charming Huntington Park. Steep streets are dotted with restaurants and nightspots like the Top of the Mark lounge, with its 360-degree views. The Cable Car Museum exhibits antique cars alongside live machinery.",
+        "pros": "Eating Out, Pest Free, Public Transport, Nightlife, Gym and Fitness",
+        "cons": "Parking, Cost of Living, Lack of Traffic",
+        "portion": "NorthEast",
+        "distance_from_sfsu": "10 miles"
+    },
+    {
+        "name": "North Beach",
+        "description": "North Beach, a buzzy neighborhood steeped in Italian heritage, draws locals and tourists to its checked-tablecloth trattorias, coffee shops and retro-flavored bars. The spirit of the Beat Generation can be felt at the storied City Lights bookstore and the memorabilia-filled Vesuvio Cafe bar. In Telegraph Hill the Filbert Steps offer a scenic hike to the iconic Coit Tower, with WPA-era murals and panoramic views.",
+        "pros": "Eating Out, Neighborly Spirit, Nightlife, Pest Free, Public Transport",
+        "cons": "Parking, Cost of Living",
+        "portion": "NorthEast",
+        "distance_from_sfsu": "11 miles"
+    },
+    {
+        "name": "Russian Hill",
+        "description": "Russian Hill is a quaint, upscale residential community known for the famously crooked Lombard Street, a major tourist destination. The iconic San Francisco cable cars crest the neighborhood’s hills, which provide views of a number of city landmarks including the Golden Gate and Bay bridges. Commercial stretches along Polk and Hyde Streets offer an assortment of trendy and old-school restaurants, bars and shops.",
+        "pros": "Neighborly Spirit, Parks and Recreation, Eating Out, Internet Access, Clean and Green",
+        "cons": "Parking, Cost of Living",
+        "portion": "NorthEast",
+        "distance_from_sfsu": "9 miles"
+    },
+    {
+        "name": "Central Sunset",
+        "description": "The Central Sunset is bounded by Lincoln Way to the north, 19th Avenue to the east, Quintara Street to the south, and Sunset Boulevard to the west. This area is mostly residential with cookie-cutter homes and large lots and a commercial strip along Irving Street from 19th Avenue to 24th Avenue and on Noriega Street from 19th Avenue to 27th Avenue and 30th Avenue to 33rd Avenue. Features of the area include the massive Sunset Reservoir (which takes up eight square blocks between Ortega and Quintara streets and 24th and 28th avenues), which has a small park surrounding its outer rim; Golden Gate Park; the Sunset Recreation Center; and Abraham Lincoln High School. ",
+        "pros": "Peace and Quiet, Safe and Sound, Public Transport, Parks and Recreation, Clean and Green",
+        "cons": "Nightlife, Cost of Living",
+        "portion": "Central West",
+        "distance_from_sfsu": "3 miles"
+    },
+    {
+        "name": "Outer Sunset",
+        "description": "The Outer Sunset is bordered by Lincoln Way to the north, Sunset Boulevard (between 36th and 37th avenues) to the east, Sloat Boulevard to the south, and Ocean Beach to the west. The primary commercial avenues are Judah, Noriega, and Taraval. The Outer Sunset is the foggiest section in San Francisco due to its close proximity to Ocean Beach. The area's main attractions include the San Francisco Zoo, Golden Gate Park, Ocean Beach, and Lake Merced.",
+        "pros": "Parks and Recreation, Public Transport, Safe and Sound, Parking, Peace and Quiet",
+        "cons": "None",
+        "portion": "Central West",
+        "distance_from_sfsu": "3 miles"
+    },
+    {
+        "name": "Outer Parkside",
+        "description": "A neighborhood in the western part of San Francisco, California. It is located in the southern part of the Avenues south of Quintara and north of Sloat Boulevard. The neighborhood has the unique distinction of more parks per capita than any other neighborhood in San Francisco. They include: Parkside Square, Pine Lake, Pine Lake Park (a.k.a. Dog Park), Concert Meadow (home of famous free summer concerts), Charlie Sava Pool (formerly Carl Larsen Pool), Carl Larsen Park, Stern Grove, McCoppin Park, and McCoppin Square.",
+        "pros": "Safe and Sound, Clean and Green, Neighborly Spirit, Public Transport, Eating Out",
+        "cons": "Cost of Living",
+        "portion": "Central West",
+        "distance_from_sfsu": "2 miles"
+    },
+    {
+        "name": "Haight Ashbury",
+        "description": "Birthplace of the 1960s counterculture movement, Haight-Ashbury draws a lively, diverse crowd looking to soak up the historic hippie vibe. Upper Haight Street is a hodgepodge of vintage clothing boutiques, record shops, bookstores, dive bars and casual, eclectic restaurants. Bordering Golden Gate Park, the neighborhood features many colorful, well-preserved Victorian homes, including the storied Grateful Dead House.",
+        "pros": "Eating Out, Public Transport, Parks and Recreation, Neighborly Spirit, Medical Facilities",
+        "cons": "Parking, Cost of Living, Schools",
+        "portion": "Central",
+        "distance_from_sfsu": "5 miles"
+    },
+    {
+        "name": "Hayes Valley",
+        "description": "Hayes Valley is a cool, revitalized neighborhood in the Western Addition. The main commercial stretch, Hayes Street, teems with upscale boutiques for designer fashions and home decor, plus dessert shops, chill watering holes and a wide array of on-trend restaurants. The close-knit neighborhood features a community garden, a pocket park with art installations, and access to music and theater near the Civic Center.",
+        "pros": "Eating Out, Public Transport, Shopping Options, Internet Access, Nightlife",
+        "cons": "Parking",
+        "portion": "Central",
+        "distance_from_sfsu": "6 miles"
+    },
+    {
+        "name": "West Addition",
+        "description": "The diverse Western Addition includes several of the city's famous microhoods. Rich in musical history, the Fillmore District features jazz lounges, an annual jazz festival and The Fillmore concert hall, a '60s-era landmark. Hip Divisadero Street is dotted with sidewalk cafes, bars and trendy shops. Alamo Square Park offers views of the iconic Painted Ladies, a row of Victorian homes with the skyline behind them.",
+        "pros": "Public Transport, Internet Access, Cost of Living, Eating Out, Nightlife",
+        "cons": "Parking, Shopping Options, Gym and Fitness, Safe and Sound, Lack of Traffic",
+        "portion": "Central",
+        "distance_from_sfsu": "7 miles"
+    },
+    {
+        "name": "SOMA",
+        "description": "SoMa, or South of Market, is a vast, warehouse-filled district. It encompasses Mission Bay and South Beach, where the Giants play baseball at waterfront ATandT Park. Surrounding Yerba Buena Gardens is an arts center, sleek convention complex Moscone Center and several museums, including the acclaimed San Francisco Museum of Modern Art (SFMOMA). The area is dotted with upscale dining options and high-energy nightclubs.",
+        "pros": "Public Transport, Internet Access, Eating Out, Resale or Rental Value, Neighborly Spirit",
+        "cons": "Parking, Peace and Quiet, Clean and Green, Gym and Fitness",
+        "portion": "East",
+        "distance_from_sfsu": "9 miles"
+    },
+    {
+        "name": "South Beach",
+        "description": "Respected for its salty sea breeze and picturesque views of the bay, South Beach's stark cleanliness presents a distinctly different side of San Francisco.",
+        "pros": "Internet Access, Public Transport, Pest Free, Resale or Rental Value, Eating Out",
+        "cons": "Parking",
+        "portion": "East",
+        "distance_from_sfsu": "9 miles"
+    },
+    {
+        "name": "ParkMerced",
+        "description": "Parkmerced is a neighborhood in San Francisco, California, designed by architects Leonard Schultze and Thomas Dolliver Church in the early 1940s. Parkmerced is the second-largest single-owner neighborhood of apartment blocks west of the Mississippi River after Park La Brea in Los Angeles.",
+        "pros": "Shopping Options, Safe and Sound, Clean and Green, Gym and Fitness, Internet Access",
+        "cons": "Nightlife, Cost of Living",
+        "portion": "SouthWest",
+        "distance_from_sfsu": "0.3 miles"
+    },
+    {
+        "name": "Twin Peaks",
+        "description": "Twin Peaks, named for a pair of 922-foot-high summits, is a remote residential neighborhood with modern homes densely packed on steep lots along winding streets. A grassy 64-acre hilltop park is a popular attraction, with its hiking trails leading up to wind-swept peaks and 360-degree views of the Bay Area. The triple-pronged Sutro Tower antenna that soars over the neighborhood is a fixture in the skyline.",
+        "pros": "Internet Access, Lack of Traffic, Resale or Rental Value, Clean and Green, Neighborly Spirit",
+        "cons": "Eating Out, Nightlife, Shopping Options, Cost of Living, Parking",
+        "portion": "SouthWest",
+        "distance_from_sfsu": "4 miles"
+    },
+    {
+        "name": "Lakeshore",
+        "description": "Lakeshore is a neighborhood in San Francisco, California with a population of 12,136. Lakeshore is one of the best places to live in California. Living in Lakeshore offers residents a suburban feel and most residents rent their homes. In Lakeshore there are a lot of bars, restaurants, coffee shops, and parks. Many young professionals live in Lakeshore and residents tend to lean liberal. The public schools in Lakeshore are highly rated.",
+        "pros": "Shopping Options, Safe and Sound, Clean and Green, Gym and Fitness, Internet Access",
+        "cons": "Nightlife, Cost of Living",
+        "portion": "SouthWest",
+        "distance_from_sfsu": "1 miles"
+    },
+    {
+        "name": "Castro",
+        "description": "The Castro District, in Eureka Valley, is synonymous with gay culture. Revelers often spill onto the sidewalks at numerous bars, like Twin Peaks Tavern, whose floor-to-ceiling windows were revolutionary when it opened in 1972. The lavish Castro Theatre and the GLBT Historic Museum are also found here, as are homey restaurants and adult shops. On Market Street, 19th-century F-line streetcars head to Fisherman’s Wharf.",
+        "pros": "Public Transport, Neighborly Spirit, Resale or Rental Value, Parks and Recreation, Eating Out",
+        "cons": "Parking",
+        "portion": "West",
+        "distance_from_sfsu": "5 miles"
+    },
+    {
+        "name": "Glen Park",
+        "description": "Glen Park is a secluded-feeling gem easily accessed by San Francisco’s BART. The neighborhood’s picturesque streetscapes and village vibe lend its coffee shops, organic markets, and independent boutiques an undeniable charm. This gentle neighborhood offers more than simple small-town treasures—Glen Park also boasts seventy green acres and miles of hidden nature trails that weave through its lushly forested hillsides.",
+        "pros": "Parks and Recreation, Neighborly Spirit, Clean and Green, Public Transport, Internet Access",
+        "cons": "Parking, Nightlife",
+        "portion": "West",
+        "distance_from_sfsu": "4 miles"
+    },
+    {
+        "name": "Noe Valley",
+        "description": "Noe Valley is a quaint, in-demand place to live that’s geared toward young families. The neighborhood features tidy rows of Victorian and Edwardian homes, and thanks to surrounding hills, has some of the city’s sunniest weather. Stroller pushers and dog walkers jostle along 24th Street, which is stocked with bakeries, wine and cheese shops and relaxed cafes. A weekly farmers' market is held in the modest town square.",
+        "pros": "Neighborly Spirit, Internet Access, Clean and Green, Public Transport, Safe and Sound",
+        "cons": "Resale or Rental Value, Medical Facilities, Cost of Living, Nightlife",
+        "portion": "West",
+        "distance_from_sfsu": "4 miles"
+    },
+    {
+        "name": "Mission",
+        "description": "Named for the 1776-built Mission Dolores, the Mission District is an exuberant, evolving neighborhood with Latino roots and a hipster vibe. Old-school taquerias and eclectic live-music clubs mix with chef-driven eateries and craft cocktail lounges. There are also tattoo parlors, gourmet ice cream shops and Dolores Park, a popular weekend hangout with skyline views. Vibrant murals line streets such as Clarion Alley.",
+        "pros": "Public Transport, Eating Out, Internet Access, Resale or Rental Value, Nightlife",
+        "cons": "Peace and Quiet, Clean and Green",
+        "portion": "SouthEast",
+        "distance_from_sfsu": "7 miles"
+    },
+    {
+        "name": "Bernal Heights",
+        "description": "Bernal Heights is a residential neighborhood in southeastern San Francisco, California. The prominent Bernal Heights hill overlooks the San Francisco skyline and features a microwave transmission tower. The nearby Sutro Tower can be seen from the Bernal Heights neighborhood.",
+        "pros": "Peace and Quiet, Pest Free, Clean and Green, Neighborly Spirit, Parks and Recreation",
+        "cons": "Parking, Nightlife, Shopping Options, Public Transport",
+        "portion": "SouthEast",
+        "distance_from_sfsu": "6 miles"
+    },
+    {
+        "name": "Bay View",
+        "description": "Bayview–Hunters Point are two major neighborhoods–the Bayview and Hunters Point–in the southeastern corner of San Francisco, California, United States. The decommissioned Hunters Point Naval Shipyard is located within its boundaries and Candlestick Park, which was demolished in 2015, was on the southern edge.",
+        "pros": "Internet Access, Parking, Cost of Living, Public Transport, Lack of Traffic",
+        "cons": "Nightlife, Eating Out, Parks and Recreation, Medical Facilities, Shopping Options",
+        "portion": "Central East",
+        "distance_from_sfsu": "7 miles"
+    },
+    {
+        "name": "Hunters Point",
+        "description": "Bayview–Hunters Point are two major neighborhoods–the Bayview and Hunters Point–in the southeastern corner of San Francisco, California, United States. The decommissioned Hunters Point Naval Shipyard is located within its boundaries and Candlestick Park, which was demolished in 2015, was on the southern edge.",
+        "pros": "Cost of Living, Internet Access",
+        "cons": "Parking, Safe and Sound, Gym and Fitness, Eating Out, Nightlife",
+        "portion": "Central East",
+        "distance_from_sfsu": "9 miles"
+    },
+    {
+        "name": "Potrero Hill",
+        "description": "Family-friendly Potrero Hill is an often-sunny, hilly area with bay and skyline views and a mix of condos and classic Victorians, plus parks with sports facilities. 18th Street has quaint eateries and shops. Nearby are gritty music spots and the historic Anchor Brewing Company, which offers tours. On the neighborhood's eastern edge, industrial-cool Dogpatch, with hip bars and eateries, runs along the waterfront.",
+        "pros": "Internet Access, Eating Out, Medical Facilities, Neighborly Spirit, Pest Free",
+        "cons": "None",
+        "portion": "Central East",
+        "distance_from_sfsu": "8 miles"
+    },
+    {
+        "name": "Excelsior",
+        "description": "This unpretentious San Francisco neighborhood sports cool murals and a down-to-earth attitude. In Excelsior, greasy spoon diners share the sidewalks with corner stores and ethnic markets. Combine its no-frills vibe with the simple joy of relaxing in its neighborhood park, and Excelsior’s on-the-fringe location complements its unhurried pace.",
+        "pros": "Parks and Recreation, Public Transport, Neighborly Spirit, Internet Access, Peace and Quiet",
+        "cons": "Parking, Nightlife, Shopping Options, Eating Out",
+        "portion": "South",
+        "distance_from_sfsu": "3 miles"
+    },
+    {
+        "name": "Ocean View",
+        "description": "Oceanview is a neighborhood in the southern portion of San Francisco, California. It was first established as a community in the 1910s and originally centered on the intersection of Sagamore Street and San Jose Avenue.",
+        "pros": "Peace and Quiet, Public Transport, Schools, Parks and Recreation",
+        "cons": "Eating Out, Gym and Fitness, Nightlife, Shopping Options, Childcare",
+        "portion": "South",
+        "distance_from_sfsu": "2 miles"
+    },
+    {
+        "name": "Ingleside",
+        "description": "Ingleside Terraces is an affluent residential neighborhood of approximately 750 detached homes built at the former location of the Ingleside Racetrack in the southwestern part of San Francisco.",
+        "pros": "Parking, Neighborly Spirit, Resale or Rental Value, Schools, Pest Free",
+        "cons": "Nightlife, Shopping Options, Childcare, Gym and Fitness, Medical Facilities",
+        "portion": "South",
+        "distance_from_sfsu": "1 miles"
+    },
+    {
+        "name": "Vistacion Valley",
+        "description": "Visitacion Valley is a neighborhood in San Francisco, California with a population of 17,199. Living in Visitacion Valley offers residents an urban feel and most residents own their homes. In Visitacion Valley there are a lot of restaurants, coffee shops, and parks.",
+        "pros": "Parks and Recreation, Internet Access, Lack of Traffic, Public Transport, Cost of Living",
+        "cons": "Nightlife, Gym and Fitness, Childcare, Shopping Options, Peace and Quiet",
+        "portion": "South",
+        "distance_from_sfsu": "5 miles"
+    }
+]
+}
