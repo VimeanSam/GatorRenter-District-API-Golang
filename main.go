@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/gorilla/mux"
 )
 
 type Districts struct {
@@ -53,13 +55,21 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func getAllDistricts(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode(files)
+	content, err := json.Marshal(files)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(content)
 }
 
 func handleRequests() {
-	http.HandleFunc("/", home)
-	http.HandleFunc("/getAllDistricts", getAllDistricts)
-	log.Fatal(http.ListenAndServe(":4000", nil))
+	myrouter := mux.NewRouter().StrictSlash(true)
+	myrouter.HandleFunc("/", home)
+	myrouter.HandleFunc("/getAllDistricts", getAllDistricts).Methods("GET")
+	log.Fatal(http.ListenAndServe(":4000", myrouter))
 }
 
 func main() {
