@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/gorilla/mux"
@@ -61,6 +62,42 @@ func getAllDistricts(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+
+	//check query parameter
+	lte := r.URL.Query()["lte"]
+
+	if len(lte) >= 1 {
+		query, err := strconv.ParseFloat(lte[0], 64)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			log.Println("Something wrong...")
+			return
+		}
+		result := make([]District, 0)
+		for i := 0; i < len(files); i++ {
+			str := files[i].Distance_From_SFSU
+			spc := strings.Index(str, " ")
+			distance, err := strconv.ParseFloat(str[0:spc], 64)
+			if err != nil {
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				log.Println("Something wrong...")
+				return
+			}
+			if distance <= query {
+				result = append(result, files[i])
+			}
+		}
+		content, err := json.Marshal(result)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(content)
+		return
+	}
+
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(content)
 }
@@ -85,6 +122,41 @@ func getPortion(w http.ResponseWriter, r *http.Request) {
 	if len(portions) == 0 {
 		w.WriteHeader(http.StatusNotFound)
 		w.Write([]byte("404 - Portion not found"))
+		return
+	}
+
+	//check query parameter
+	lte := r.URL.Query()["lte"]
+
+	if len(lte) >= 1 {
+		query, err := strconv.ParseFloat(lte[0], 64)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			log.Println("Something wrong...")
+			return
+		}
+		results := make([]District, 0)
+		for i := 0; i < len(portions); i++ {
+			str := portions[i].Distance_From_SFSU
+			spc := strings.Index(str, " ")
+			distance, err := strconv.ParseFloat(str[0:spc], 64)
+			if err != nil {
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				log.Println("Something wrong...")
+				return
+			}
+			if distance <= query {
+				results = append(results, portions[i])
+			}
+		}
+		responses, err := json.Marshal(results)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(responses)
 		return
 	}
 
