@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/gorilla/mux"
 )
@@ -60,6 +61,39 @@ func getAllDistricts(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(content)
+}
+
+func getPortion(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	portions := make([]District, 0)
+	if strings.Trim(key, " ") == "" {
+		log.Println("Please specify district portion")
+		return
+	}
+
+	for i := 0; i < len(files); i++ {
+		if strings.ToLower(files[i].Portion) == strings.ToLower(strings.Trim(key, " ")) {
+			//log.Println(files[i])
+			portions = append(portions, files[i])
+		}
+	}
+
+	//if the endpoint does not match any of the district portion. Throw a 404 not found
+	if len(portions) == 0 {
+		w.WriteHeader(http.StatusNotFound)
+		w.Write([]byte("404 - Portion not found"))
+		return
+	}
+
+	//write results to json
+	content, err := json.Marshal(portions)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(content)
@@ -68,7 +102,8 @@ func getAllDistricts(w http.ResponseWriter, r *http.Request) {
 func handleRequests() {
 	myrouter := mux.NewRouter().StrictSlash(true)
 	myrouter.HandleFunc("/", home)
-	myrouter.HandleFunc("/getAllDistricts", getAllDistricts).Methods("GET")
+	myrouter.HandleFunc("/districts", getAllDistricts).Methods("GET")
+	myrouter.HandleFunc("/districts/{id}", getPortion).Methods("GET")
 	log.Fatal(http.ListenAndServe(":4000", myrouter))
 }
 
