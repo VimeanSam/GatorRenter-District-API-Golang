@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"../model"
+	"github.com/VimeanSam/GatorRenter-District-API-Golang/model"
 	"github.com/gorilla/mux"
 )
 
