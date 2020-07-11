@@ -85,7 +85,7 @@
         "description": "The Central Sunset is bounded by Lincoln Way to the north, 19th Avenue to the east, Quintara Street to the south, and Sunset Boulevard to the west. This area is mostly residential with cookie-cutter homes and large lots and a commercial strip along Irving Street from 19th Avenue to 24th Avenue and on Noriega Street from 19th Avenue to 27th Avenue and 30th Avenue to 33rd Avenue. Features of the area include the massive Sunset Reservoir (which takes up eight square blocks between Ortega and Quintara streets and 24th and 28th avenues), which has a small park surrounding its outer rim; Golden Gate Park; the Sunset Recreation Center; and Abraham Lincoln High School. ",
         "pros": "Peace and Quiet, Safe and Sound, Public Transport, Parks and Recreation, Clean and Green",
         "cons": "Nightlife, Cost of Living",
-        "portion": "Central West",
+        "portion": "CentralWest",
         "distance_from_sfsu": "3 miles"
     },
     {
@@ -93,7 +93,7 @@
         "description": "The Outer Sunset is bordered by Lincoln Way to the north, Sunset Boulevard (between 36th and 37th avenues) to the east, Sloat Boulevard to the south, and Ocean Beach to the west. The primary commercial avenues are Judah, Noriega, and Taraval. The Outer Sunset is the foggiest section in San Francisco due to its close proximity to Ocean Beach. The area's main attractions include the San Francisco Zoo, Golden Gate Park, Ocean Beach, and Lake Merced.",
         "pros": "Parks and Recreation, Public Transport, Safe and Sound, Parking, Peace and Quiet",
         "cons": "None",
-        "portion": "Central West",
+        "portion": "CentralWest",
         "distance_from_sfsu": "3 miles"
     },
     {
@@ -101,7 +101,7 @@
         "description": "A neighborhood in the western part of San Francisco, California. It is located in the southern part of the Avenues south of Quintara and north of Sloat Boulevard. The neighborhood has the unique distinction of more parks per capita than any other neighborhood in San Francisco. They include: Parkside Square, Pine Lake, Pine Lake Park (a.k.a. Dog Park), Concert Meadow (home of famous free summer concerts), Charlie Sava Pool (formerly Carl Larsen Pool), Carl Larsen Park, Stern Grove, McCoppin Park, and McCoppin Square.",
         "pros": "Safe and Sound, Clean and Green, Neighborly Spirit, Public Transport, Eating Out",
         "cons": "Cost of Living",
-        "portion": "Central West",
+        "portion": "CentralWest",
         "distance_from_sfsu": "2 miles"
     },
     {
@@ -213,7 +213,7 @@
         "description": "Bayview–Hunters Point are two major neighborhoods–the Bayview and Hunters Point–in the southeastern corner of San Francisco, California, United States. The decommissioned Hunters Point Naval Shipyard is located within its boundaries and Candlestick Park, which was demolished in 2015, was on the southern edge.",
         "pros": "Internet Access, Parking, Cost of Living, Public Transport, Lack of Traffic",
         "cons": "Nightlife, Eating Out, Parks and Recreation, Medical Facilities, Shopping Options",
-        "portion": "Central East",
+        "portion": "CentralEast",
         "distance_from_sfsu": "7 miles"
     },
     {
@@ -221,7 +221,7 @@
         "description": "Bayview–Hunters Point are two major neighborhoods–the Bayview and Hunters Point–in the southeastern corner of San Francisco, California, United States. The decommissioned Hunters Point Naval Shipyard is located within its boundaries and Candlestick Park, which was demolished in 2015, was on the southern edge.",
         "pros": "Cost of Living, Internet Access",
         "cons": "Parking, Safe and Sound, Gym and Fitness, Eating Out, Nightlife",
-        "portion": "Central East",
+        "portion": "CentralEast",
         "distance_from_sfsu": "9 miles"
     },
     {
@@ -229,7 +229,7 @@
         "description": "Family-friendly Potrero Hill is an often-sunny, hilly area with bay and skyline views and a mix of condos and classic Victorians, plus parks with sports facilities. 18th Street has quaint eateries and shops. Nearby are gritty music spots and the historic Anchor Brewing Company, which offers tours. On the neighborhood's eastern edge, industrial-cool Dogpatch, with hip bars and eateries, runs along the waterfront.",
         "pros": "Internet Access, Eating Out, Medical Facilities, Neighborly Spirit, Pest Free",
         "cons": "None",
-        "portion": "Central East",
+        "portion": "CentralEast",
         "distance_from_sfsu": "8 miles"
     },
     {

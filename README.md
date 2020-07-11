@@ -5,14 +5,24 @@ Golang install. You can download here https://golang.org/dl/
 ## Endpoints
 ### /districts
 return all relevant districts
-![](/screenshot/picture1.jpg)
+![](/screenshot/api_1.jpg)
 
 ### /districts/{portion} 
-return all relevant districts in the requested portion (North, NorthWest, NorthEast, West, East, South, SouthWest, SouthEast are all relevant endpoints) 
-![](/screenshot/picture2.jpg)
-![](/screenshot/picture3.jpg)
+return all relevant districts in the requested portion
+Relevant portion includes (not case sensitive): 
+* North
+* NorthWest
+* NorthEast
+* Central
+* West
+* CentralWest
+* East
+* CentralEast
+* South
+* SouthWest
+* SouthEast
+![](/screenshot/api_2.jpg)
 
 ### query parameter lte={distance from sfsu}
 return districts that is less than or equal to the requested distance. 
-![](/screenshot/picture4.jpg)
-![](/screenshot/picture5.jpg)
+![](/screenshot/api_3.jpg)
